@@ -359,7 +359,6 @@ nav {
 
 .project-content {
   padding: 20px;
-
 }
 
 .project-content h3 {
@@ -748,5 +747,13 @@ footer {
     height: 115px;
     bottom: 25%;
     right: 12%;
+  }
+  .projects-grid {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .project-img {
+    height: auto;
   }
 }
